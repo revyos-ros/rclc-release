@@ -1,0 +1,12 @@
+Source: ros-humble-rclc-examples
+Section: misc
+Priority: optional
+Maintainer: Jan Staschulat <jan.staschulat@de.bosch.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-ros, ros-humble-example-interfaces, ros-humble-lifecycle-msgs, ros-humble-rcl, ros-humble-rclc, ros-humble-rclc-lifecycle, ros-humble-rclc-parameter, ros-humble-std-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rclc-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-example-interfaces, ros-humble-lifecycle-msgs, ros-humble-rcl, ros-humble-rclc, ros-humble-rclc-lifecycle, ros-humble-rclc-parameter, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: Example of using rclc_executor
