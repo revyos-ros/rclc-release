@@ -1,0 +1,81 @@
+ros-humble-rclc-parameter (4.0.2-3bookworm) bookworm; urgency=high
+
+  * Fix parameter change event (#310)
+
+ -- Antonio Cuadros <antoniocuadros@eprosima.com>  Tue, 21 Mar 2023 16:00:00 -0000
+
+ros-humble-rclc-parameter (4.0.1-3bookworm) bookworm; urgency=high
+
+  * improved doxygen-generated API documentation (#301) (#302)
+
+ -- Antonio Cuadros <antoniocuadros@eprosima.com>  Tue, 19 Jul 2022 16:00:00 -0000
+
+ros-humble-rclc-parameter (4.0.0-3bookworm) bookworm; urgency=high
+
+  * updated version for Humble release
+
+ -- Antonio Cuadros <antoniocuadros@eprosima.com>  Wed, 27 Apr 2022 16:00:00 -0000
+
+ros-humble-rclc-parameter (3.0.8-3bookworm) bookworm; urgency=high
+
+  * Parameters fini memory (#253)
+  * Fix RCLC int parameter get (cherry-pick) (#272)
+  * rclc_parameter: Fix rcl return values (#270)
+  * Upgrade parameters (#274)
+
+ -- Antonio Cuadros <antoniocuadros@eprosima.com>  Wed, 13 Apr 2022 16:00:00 -0000
+
+ros-humble-rclc-parameter (3.0.7-3bookworm) bookworm; urgency=high
+
+  * no changes
+
+ -- Antonio Cuadros <antoniocuadros@eprosima.com>  Wed, 16 Feb 2022 16:00:00 -0000
+
+ros-humble-rclc-parameter (3.0.6-3bookworm) bookworm; urgency=high
+
+  * Add thread dependency to examples (Rolling) (#237) (resolves in this package only cpplint errors)
+
+ -- Antonio Cuadros <antoniocuadros@eprosima.com>  Mon, 24 Jan 2022 16:00:00 -0000
+
+ros-humble-rclc-parameter (3.0.5-3bookworm) bookworm; urgency=high
+
+  * no change
+
+ -- Antonio Cuadros <antoniocuadros@eprosima.com>  Mon, 22 Nov 2021 16:00:00 -0000
+
+ros-humble-rclc-parameter (3.0.4-3bookworm) bookworm; urgency=high
+
+  * Add rclc_parameter Quality Declaration (#144)
+  * Check all dynamic allocations in parameter server init (#169)
+
+ -- Antonio Cuadros <antoniocuadros@eprosima.com>  Tue, 16 Nov 2021 16:00:00 -0000
+
+ros-humble-rclc-parameter (3.0.3-3bookworm) bookworm; urgency=high
+
+  * Version bump
+
+ -- Antonio Cuadros <antoniocuadros@eprosima.com>  Tue, 27 Jul 2021 16:00:00 -0000
+
+ros-humble-rclc-parameter (3.0.2-3bookworm) bookworm; urgency=high
+
+  * Add test dependencies for rclc_parameter
+
+ -- Antonio Cuadros <antoniocuadros@eprosima.com>  Sun, 25 Jul 2021 16:00:00 -0000
+
+ros-humble-rclc-parameter (3.0.1-3bookworm) bookworm; urgency=high
+
+  * Removed shared from rclc_parameter
+  * Ensure clean message when set_parameter
+  * Added QoS entity creation API
+  * Updated CMakeLists.txt
+  * Major vesion bump was neccessary because API change in rcl_lifecycle package
+
+ -- Antonio Cuadros <antoniocuadros@eprosima.com>  Fri, 16 Jul 2021 16:00:00 -0000
+
+ros-humble-rclc-parameter (0.1.0-3bookworm) bookworm; urgency=high
+
+  * Initial release
+
+ -- Antonio Cuadros <antoniocuadros@eprosima.com>  Wed, 26 May 2021 16:00:00 -0000
+
+
