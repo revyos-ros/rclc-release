@@ -1,0 +1,12 @@
+Source: ros-humble-rclc-lifecycle
+Section: misc
+Priority: optional
+Maintainer: Jan Staschulat <jan.staschulat@de.bosch.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-cmake-ros, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-lifecycle-msgs, ros-humble-osrf-testing-tools-cpp <!nocheck>, ros-humble-rcl-lifecycle, ros-humble-rclc, ros-humble-std-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rclc-lifecycle
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-lifecycle-msgs, ros-humble-rcl-lifecycle, ros-humble-rclc, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: rclc lifecycle convenience methods.
